@@ -56,16 +56,16 @@ const About = () => {
                 <li className="list-group-item fs-5">React 🚀: For building lightning-fast, component-driven UIs that adapt seamlessly to user interactions</li>
                 <div className="container img-field">
                     <div  ref={borderRef} className="d-flex justify-content-center align-items-center grad-border"></div>
-                        <img className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2" src="src/components/gallery/react.png" alt="react logo" />
+                        <img className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2" src="src/gallery/react.png" alt="react logo" />
                 </div>
                 <li className="list-group-item fs-5">Laravel 🎯: Creating robust backend architectures with elegant syntax and MVC efficiency</li>
                 <div className="container img-field">
                     <div  ref={borderRefNd} className="d-flex justify-content-center align-items-center grad-border"></div>
-                        <img className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2" src="src/components/gallery/laravel.png" alt="laravel logo" />
+                        <img className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2" src="src/gallery/laravel.png" alt="laravel logo" />
                 </div>
                 <li className="list-group-item fs-5">GSAP ✨: Implementing buttery-smooth animations that enhance user engagement without sacrificing performance</li>
                 <div ref={containerRef}>
-                    <img ref={logoRef} className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 logo" src="src/components/gallery/logo.png" alt="gsap logo" />
+                    <img ref={logoRef} className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 logo" src="src/gallery/logo.png" alt="gsap logo" />
                 </div>
             </ul>
 
