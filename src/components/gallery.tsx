@@ -13,8 +13,6 @@ interface Galleryprops {
 }
 const Gallery = ({title, description, github, descriptionnd, githubnd } : Galleryprops) => {
   const project = useRef(null);
-
-  const screenHeight = window.innerHeight;
   useEffect(() => {
      gsap.fromTo(
       project.current, { x:-200, opacity:0},
