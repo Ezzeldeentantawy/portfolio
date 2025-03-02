@@ -8,12 +8,12 @@ const About = () => {
     const about = useRef(null);
     const borderRef = useRef(null);
     const borderRefNd = useRef(null);
-    const containerRef = useRef(null); // Reference to the container div
-    const logoRef = useRef(null); // Reference to the logo image
+    const containerRef = useRef<HTMLDivElement>(null); // Reference to the container div
+    const logoRef = useRef<HTMLImageElement>(null); // Reference to the logo image
     
     useEffect(() => {
-        const containerWidth = containerRef.current.offsetWidth;
-        const logoWidth = logoRef.current.offsetWidth;
+        const containerWidth = containerRef.current?.offsetWidth ?? 0;
+        const logoWidth = logoRef.current?.offsetWidth || 0;
 
         // GSAP Animation for greeting, title, and subheading
         gsap.fromTo(
